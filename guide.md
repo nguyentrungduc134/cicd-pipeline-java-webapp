@@ -12,7 +12,7 @@ Follow the official Jenkins installation guide for your operating system:
 
 ### **b. Install Nexus**  
 Refer to the official Sonatype Nexus installation guide:  
-[https://help.sonatype.com/repomanager3/installation-and-upgrades](https://hub.docker.com/r/sonatype/nexus3/)  
+[nexus](https://hub.docker.com/r/sonatype/nexus3/)  
 
 ---
 
