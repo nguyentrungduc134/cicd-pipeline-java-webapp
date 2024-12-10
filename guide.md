@@ -1,7 +1,10 @@
 # **CI/CD Setup: Jenkins and Nexus Installation**  
 
 This guide provides steps to install **Jenkins** and **Nexus Repository Manager** and configure an example Java web application for a CI/CD pipeline.
+
 [install video](https://drive.google.com/file/d/1C2e-ffgayDutHCernc2NDTyYu690xiQX/view?usp=sharing)
+
+
 [pipeline video](https://drive.google.com/file/d/1cIB3pxUqHKxiRW9GVZGKWgJx32GzD1VR/view?usp=sharing)
 ---
 
