@@ -36,7 +36,7 @@ pipeline {
                     ], 
                     credentialsId: 'nexus', 
                     groupId: "${GroupId}", 
-                    nexusUrl: '34.203.190.96:8081', 
+                    nexusUrl: '172.31.19.131:8081', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: "${NexusRepo}", 
@@ -50,27 +50,6 @@ pipeline {
                 echo "Group ID is '${GroupId}'"
                 echo "Version is '${Version}'"
                 echo "Name is '${Name}'"
-            }
-        }
-        stage('Deploy to Docker') {
-            steps {
-                echo 'Deploying...'
-                sshPublisher(publishers: 
-                [sshPublisherDesc(
-                    configName: 'ansible-controller', 
-                    transfers: [
-                        sshTransfer(
-                            sourceFiles: 'download-deploy.yaml, hosts',
-                            remoteDirectory: '/playbooks',
-                            cleanRemote: false,
-                            execCommand: 'cd playbooks/ && ansible-playbook download-deploy.yaml -i hosts', 
-                            execTimeout: 120000, 
-                        )
-                    ], 
-                    usePromotionTimestamp: false, 
-                    useWorkspaceInPromotion: false, 
-                    verbose: false)
-                ])
             }
         }
     }
