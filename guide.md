@@ -26,14 +26,14 @@ Refer to the official Sonatype Nexus installation guide:
 
 An example Java web application is available to demonstrate the CI/CD pipeline setup:  
 
-- **Repository URL:** [cicd-pipeline-java-webapp](https://github.com/nguyentrungduc134/cicd-pipeline-java-webapp)  
+- **Repository URL:** [cicd-pipeline-java-webapp](https://github.com/nguyentrungduc134/fakeweb/)
 
 ---
 
 ### **Steps to Use the Application**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/nguyentrungduc134/cicd-pipeline-java-webapp.git
+   git clone https://github.com/nguyentrungduc134/fakeweb/
    ```  
 2. Configure Jenkins to build the application and integrate Nexus for artifact storage.  
 3. Define pipeline stages (build, test, and deploy) in Jenkins.  
