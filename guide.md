@@ -7,6 +7,8 @@ This guide provides steps to install **Jenkins** and **Nexus Repository Manager*
 
 [pipeline video](https://drive.google.com/file/d/1cIB3pxUqHKxiRW9GVZGKWgJx32GzD1VR/view?usp=sharing)
 
+[updated](https://drive.google.com/file/d/18PKN0uDRrRO1_vU08UCLDg1lY8yDAIqU/view?usp=sharing)
+
 ---
 
 ## **1. Install Jenkins and Nexus**  
