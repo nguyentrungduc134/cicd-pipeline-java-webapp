@@ -14,7 +14,8 @@ This guide provides steps to install **Jenkins** and **Nexus Repository Manager*
 ### **a. Install Jenkins**  
 Follow the official Jenkins installation guide for your operating system:  
 [https://www.jenkins.io/doc/book/installing/](https://www.jenkins.io/doc/book/installing/)  
-
+add insecure repository to docker at jenkins server:
+[link](https://stackoverflow.com/questions/61116766/add-insecure-registry-to-docker-in-ubuntu)
 ### **b. Install Nexus**  
 Refer to the official Sonatype Nexus installation guide:  
 [nexus](https://hub.docker.com/r/sonatype/nexus3/)  
